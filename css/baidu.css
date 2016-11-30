@@ -307,6 +307,102 @@ section:nth-child(1){
 .logindi a{
     color:#fff;
 }
+section:nth-child(2){
+    position: relative;
+}
+.lingxian{
+    position: absolute;
+    left:203px;
+    top:251px;
+    width: 66px;
+    height:151px;
+    background:url("../img/h_lingxian_221f2d8.png") no-repeat 0 0;
+   animation: zi 2s infinite;
+}
+@keyframes zi  {
+    0%{
+    transform: rotateY(0deg);
+    }
+    40%{
+        transform:rotateY(0deg);
+    }
+    100%{
+        transform:rotateY(360deg);
+    }
+}
+ .shuju{
+     width: 414px;
+     height:218px;
+     position: absolute;
+     left:280px;
+     top:251px;
+ }
+ .shuju span{
+     color:#fff;
+     font-size:35px;
+     display: block;
+     float: left;
+     margin-top: 5px;
+     margin-left: 10px;
+
+ }
+.shuju p{
+    color:#fff;
+    font-size:20px;
+    display: block;
+    float: left;
+    margin-top:18px;
+    margin-left: 10px;
+
+}
+.tubiao{
+    position: absolute;
+    right:211px;
+    top:130px;
+    width:444px;
+    height:427px;
+    background:url("../img/brain_36a156f.png") no-repeat 0 0;
+}
+.square1{
+    position: absolute;
+    left:250px;
+    bottom:0;
+    width:44px;
+    height:44px;
+    background: #35B568;
+}
+.square2{
+    position: absolute;
+    left:340px;
+    bottom:0;
+    width:88px;
+    height:88px;
+    background: #35B568;
+}
+.square3{
+    position: absolute;
+    left:428px;
+    bottom:0;
+    width:44px;
+    height:44px;
+    background: #8AE75A;
+}
+.square4{
+    position: absolute;
+    right:510px;
+    bottom:0;
+    width:44px;
+    height:44px;
+    background: #8AE75A;
+}
+.square5{
+    position: absolute;
+    right:420px;
+    bottom:0;
+    width:44px;
+    height:44px;
+    background: #35B568;
+}
 @keyframes fly {
     0%{
        top:55px;
