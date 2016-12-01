@@ -417,10 +417,29 @@ header{
         transform: translate(-1349px,0);
     }
 }
-.lingxian{
+
+/*二屏*/
+.title{
+    width: 500px;
+    height:165px;
     position: absolute;
     left:203px;
     top:251px;
+    transition: transform .7s ease,opacity 0.7s ease;
+}
+.dpic{
+    width: 400px;
+    height:427px ;
+    position: absolute;
+    right:15%;
+    top:20%;
+    transition: transform .7s ease,opacity 0.7s ease;
+}
+
+.lingxian{
+    position: absolute;
+    left:0px;
+    top:17px;
     width: 66px;
     height:151px;
     background:url("../img/h_lingxian_221f2d8.png") no-repeat 0 0;
@@ -442,9 +461,8 @@ header{
      width: 414px;
      height:218px;
      position: absolute;
-     left:280px;
-     top:240px;
-     z-index: 9;
+     left:87px;
+     top:14px;
  }
  .shuju span{
      color:#fff;
@@ -464,10 +482,10 @@ header{
     margin-left: 10px;
 
 }
-.dpic{
+.tubiao{
     position: absolute;
-    right:211px;
-    top:130px;
+    right:0px;
+    top:10px;
     width:444px;
     height:427px;
     background:url("../img/brain_36a156f.png") no-repeat 0 0;
@@ -528,8 +546,8 @@ header{
 }
 .quanmian{
     position: absolute;
-    left:203px;
-    top:251px;
+    left:0px;
+    top:17px;
     width: 66px;
     height:151px;
     background:url("../img/h_quanmian_8f813d2.png") no-repeat 0 0;
@@ -537,8 +555,8 @@ header{
 }
 .zhuan{
     position: absolute;
-    right:211px;
-    top:130px;
+    right:0px;
+    top:10px;
     width:444px;
     height:427px;
     background:url("../img/allside_e8abd12.png") no-repeat 0 0;
@@ -588,8 +606,8 @@ header{
 }
 .zhuanye{
     position: absolute;
-    left:203px;
-    top:251px;
+    left:20px;
+    top:17px;
     width: 66px;
     height:151px;
     background:url("../img/h_zhuanye_256a94d.png") no-repeat 0 0;
@@ -597,8 +615,8 @@ header{
 }
 .tiao{
     position: absolute;
-    right:211px;
-    top:130px;
+    right:0px;
+    top:10px;
     width:603px;
     height:361px;
     background:url("../img/stat_8934528.png") no-repeat 0 0;
@@ -660,8 +678,8 @@ header{
     }
     .lingxian{
         position: absolute;
-        left:203px;
-        top:251px;
+        left:0px;
+        top:17px;
         width: 66px;
         height:151px;
         background:url("../img/h_lingxian_221f2d8.png") no-repeat 0 0;
@@ -671,7 +689,7 @@ header{
         width: 414px;
         height:218px;
         position: absolute;
-        left:280px;
-        top:251px;
+        left:87px;
+        top:14px;
     }
 }
