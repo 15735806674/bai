@@ -1,6 +1,5 @@
 $(function(){
     var clientH=$(window).height();
-    var clientw=$(window).width();
     window.onmousedown= function (e) {
         e.preventDefault();
     }
@@ -71,18 +70,18 @@ $("#fullpage")[0].addEventListener("webkitTransitionEnd",function(){
     // 检测屏幕
 
     $(window).resize(function(){
-        clienH = $(window).height();
+
         $("#fullpage").css({
-            marginTop:-num*clienH
+            marginTop:-num*clientH
         })
         if($(window).width() > 1000){
             $(".menu a").css({
                 animation:"none"
             })
-            $(".menu-option-tline,.menu-option-bline").css({
+            $(".menu-ahead,.menu-forward").css({
                 transform:"translate(0,0) rotate(0)"
             })
-            flag1 = true;
+            flag= true;
         }
     })
 
